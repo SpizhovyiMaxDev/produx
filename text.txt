@@ -1,0 +1,10 @@
+
+MAIN_COLOR:rgb(249, 249, 249);
+
+
+# Sell Your Hidden Treasures Today!
+
+Our website provides the ideal space for you to showcase and sell your garage's hidden gems, helping you turn clutter into cash.
+
+## Add Your Own Product or Find Anything for Yourself!
+
