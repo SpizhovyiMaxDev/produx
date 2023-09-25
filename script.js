@@ -136,7 +136,8 @@ class App{
           product = new Product(this.#uploadImage, link, name, description, price, type);
           this.modal.classList.add('hidden');
           this.overlay.classList.add('hidden');
-        } else return alert('Complete all inputs and Include paste your Image!!!');
+        } else 
+           alert('Complete all inputs and Include paste your Image!!!');
       
         if (!product) return;
 
@@ -166,28 +167,6 @@ class App{
         this.products.append(figure);
       }
       
-      static createCard(arr, product){
-        `
-        <figure class = "card"  data-price = ${product._price} data-type = ${product.type}>
-          <div class="card-img-box">
-            <img class="card-img" src="${URL.createObjectURL(product.src)}" class="img-card"/>
-          </div>
-      
-          <div class="text-box">
-            <p class="card-name">${product.name}</p>
-      
-            <p class="product-price"><span class="dollar">${isFinite(product._price) ? '$' : ''}</span>${product._price}</p>
-      
-            <p class="card-description">
-              ${product.description}
-            </p>
-            <a href="${product._link}" target="_blank" class="card-link">Message to Owner</a>
-          </div>
-        </figure>
-        `
-
-        arr.insertAdjacentHTML('beforeend', );
-      }
 
 
     _setAnimationToProduct(e){
