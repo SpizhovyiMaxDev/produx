@@ -227,12 +227,6 @@ box-shadow: 0 0 0 0.4rem rgba(67, 18, 18, 0.222);
   width: 80%;
 }
 
-@media (min-width: 768px) {
-        .aside-link {
-    padding: 19px 32px;
-  }
-}
-
 .aside-link:before,
 .aside-link:after {
   border-radius: 80px;
