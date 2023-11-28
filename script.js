@@ -196,7 +196,7 @@ class App{
         /*
         ---- 
         Here I used currentCards because I work with a current NodeList cards, 
-        I mean I want to sort the cards by price that we have on the page in the current moment.
+        I mean I want to sort the cards by price that we have on the page at the current moment.
         ----
         */
 
