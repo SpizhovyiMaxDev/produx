@@ -22,6 +22,7 @@ html{
 body{
     position:relative;
 }
+
 /* GRIDS */
 .grid{
     display: grid;
@@ -77,20 +78,7 @@ body{
 .btn:visited{
     display:inline-block;
     text-decoration: none;
-    font-size: 1.7rem;
-}
-
-.button-card{
-    position : relative ;
-    width: 15rem;
-    z-index : 0 ;
-    padding: 1rem 0;
-    text-decoration : none ;
-    font-size : 14px ; 
-    font-weight : bold ;
-    color : var(--line_color) ;
-    letter-spacing : 2px ;
-    transition : all .3s ease ;
+    font-size: 1.8rem;
 }
 
 .btn-hero {
@@ -153,140 +141,17 @@ body{
 }
 
 section:focus{
-outline:none;
-box-shadow: 0 0 0 0.4rem rgba(67, 18, 18, 0.222);
+   outline:none;
+   box-shadow: 0 0 0 0.4rem rgba(67, 18, 18, 0.222);
 }
 
 .btn-add{
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-top:3rem;
 }
 
-.btn-aside{
-   font-size: 1.8rem;
-   padding: 1rem 0;
-  background-color: #FFFFFF;
-  border: 1px solid rgb(209,213,219);
-  border-radius: .5rem;
-  box-sizing: border-box;
-  color: #111827;
-  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-weight: 600;
-  line-height: 1.25rem;
-  text-align: center;
-  text-decoration: none #D1D5DB solid;
-  text-decoration-thickness: auto;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.aside-link:link, 
-.aside-link:visited{
-  align-items: center;
-  appearance: none;
-  background-clip: padding-box;
-  background-color: initial;
-  background-image: none;
-  border-style: none;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inline-block;
-  flex-direction: row;
-  flex-shrink: 0;
-  font-family: Eina01,sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  justify-content: center;
-  line-height: 24px;
-  margin: 0;
-  min-height: 64px;
-  outline: none;
-  overflow: visible;
-  padding: 19px 26px;
-  pointer-events: auto;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
-  width: auto;
-  word-break: keep-all;
-  z-index: 0;
-  position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
-}
-
-.aside-link:before,
-.aside-link:after {
-  border-radius: 80px;
-}
-
-.aside-link:before {
-  background-color: rgba(249, 58, 19, .32);
-  content: "";
-  display: block;
-  height: 100%;
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -2;
-}
-
-.aside-link:after {
-  background-color: initial;
-  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
-  bottom: 4px;
-  content: "";
-  display: block;
-  left: 4px;
-  overflow: hidden;
-  position: absolute;
-  right: 4px;
-  top: 4px;
-  transition: all 100ms ease-out;
-  z-index: -1;
-}
-
-.aside-link:hover:not(:disabled):after {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-  transition-timing-function: ease-in;
-}
-
-.aside-link:active:not(:disabled) {
-  color: #ccc;
-}
-
-.aside-link:active:not(:disabled):after {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
-  bottom: 4px;
-  left: 4px;
-  right: 4px;
-  top: 4px;
-}
-
-.aside-link:disabled {
-  cursor: default;
-  opacity: .24;
-}
-
 /* ICONS */
-
 ion-icon{
     color: #333;
 }
