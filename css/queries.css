@@ -1,16 +1,10 @@
-
 /**************************/
-/* BELOW 1344px (Smaller desktops) */
-/**************************/
-
+/* BELOW 1344px (Smaller Desktops) */
+/**************************/=
 @media(max-width:85em){
     .grid{
         column-gap: 1.8rem;
         row-gap: 1.8rem;
-    }
-
-    .card-description{
-        font-size: 1.6rem;
     }
 
     html{
@@ -23,7 +17,6 @@
 /**************************/
 
 @media(max-width:63em){
-
     .aside-img-box{
        display: none;
     }
@@ -128,12 +121,9 @@
 }
 
 /**************************/
-/* BELOW 648px (Smaller tablets) */
+/* BELOW 648px (Smaller Tablets) */
 /**************************/
-
-
 @media(max-width:40.5em){
-
     .grid--3-cols{
         column-gap: 3rem;
         row-gap: 5rem;
@@ -150,7 +140,6 @@
 /**************************/
 /* BELOW 576px (Phones) */
 /**************************/
-
 @media(max-width:36em){
     .modal{
         max-width: 38rem;
@@ -198,18 +187,16 @@
         grid-row: 1;
         grid-column: span 2;
     }
-    
 }
 
 /**************************/
 /* BELOW 488px (Old or very small phones) */
 /**************************/
-
 @media(max-width:30.5em){
-
     .main-heading{
         font-size: 3.5rem;
     }
+    
     .products{
         padding: 0 2rem;
     }
