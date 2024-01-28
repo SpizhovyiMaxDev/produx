@@ -9,11 +9,9 @@
 MAIN_COLOR:rgb(249, 249, 249);
 */
 
-
 /*-------------------*/
 /* NAVIGATION */
 /*-------------------*/
-
      .header {
         height: 9.8rem;
         display: flex;
@@ -79,9 +77,8 @@ MAIN_COLOR:rgb(249, 249, 249);
       /*-------------------*/
       /* HERO SECTION */
       /*-------------------*/
-      
       .section-hero {
-        padding: 9.8rem 0;
+        padding: 9.8rem 2.5rem;
         background-color: rgb(249, 249, 249);
       }
       
@@ -113,9 +110,8 @@ MAIN_COLOR:rgb(249, 249, 249);
       /*-------------------*/
       /* PRODUCT SECTION */
       /*-------------------*/
-      
       .product-section {
-        padding: 9.8rem 3rem;
+        padding: 9.8rem 2.5rem;
       }
       
       .products {
@@ -223,7 +219,6 @@ MAIN_COLOR:rgb(249, 249, 249);
       }
       
       /* ASIDE */
-      
       .aside-text-box {
         font-size: 1.4rem;
         font-weight: 600;
@@ -294,8 +289,8 @@ MAIN_COLOR:rgb(249, 249, 249);
   .aside--list-item:hover{
       color: #aaa;
   }
-/* MODAL */
 
+/* MODAL */
      .modal {
         position: fixed;
         top: 50%;
@@ -393,7 +388,6 @@ MAIN_COLOR:rgb(249, 249, 249);
       /*-------------------*/
       /* FOOTER */
       /*-------------------*/
-      
       footer {
         background-color: #444;
         padding: 12.8rem 3rem;
